@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+input[type=text]{
+    width: 30px;
+}
+
+#plus{
+    cursor: pointer;
+}
+
+#minus{
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.goback-btn{
+    background-color: gold;
+    padding: 6px 6px;
+    border: 0px; 
+    cursor: pointer;
+    transition: all 0s ease;
+}
+
+.goback-btn:hover{
+    width: 100px;
+}
+
+input [type=text]{
+    border: 0.2px solid gray;
+}
+
+input[type=number]{
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgba(160, 161, 161, 0.073)
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+.paynow-btn
+{
+    background-color: rgb(58, 118, 222);
+    color: white;
+    padding: 11px 200px;
+    outline: 0;
+    border: 0;
+    margin: 25px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.saving-credit-info{
+    margin: 2px 0px 0px 3px;
+}
