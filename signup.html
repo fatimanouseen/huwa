@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | HUWA</title>
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+    <link  rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/framework.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body >
+    <div class="flex ">
+        <div class="col6 flex flex-wrap" style="height: 100vh;">
+            <img src="./img/sb (1).jpg" width="350px" height="280px">
+            <img src="./img/sb (2).jpg" width="350px" height="280px">
+            <img src="./img/sb (3).jpg" width="350px" height="280px">
+            <img src="./img/sb (4).jpg" width="350px" height="280px">
+            <img src="./img/sb (5).jpg" width="350px" height="280px">
+            <img src="./img/sb (6).jpg" width="350px" height="280px">
+        </div>
+    
+    <div class="box bg-white flex-column col5 flex-align-center pb-5 br-radius mt-10 pr-5 ml-1 pb-10 pl-5 pt-3 ">
+        <p class=" member ml-24">Already a member? <a href="#">sign in</a></p>
+           <h3 class="sign-in-h3 ">Sign up to HUWA</h3>
+           <div class="flex mr-16">
+           <button class="white bg-midnight-blue fs-1 border pt-1 pb-1 pr-4 pl-5 mr-1 ml-2">
+            <i class="fa fa-facebook-official bg-midnight-blue" aria-hidden="true" style="font-size: 15px;"></i>
+            Sign up with facebook</button>
+            <button class="white bg-ash-gray border">
+                <i class="fa fa-twitter-square " aria-hidden="true" style="font-size: 20px"></i></button>
+            </div>
+            <form  action="php/index.php" method="post"  class="flex-column" style="gap: 15px;" autocomplete="off">
+                <div class="flex mt-4" style="gap: 14px;">
+                <div class="flex-column" style="gap: 2px;">
+                <label class="signin">First Name</label>
+                <input type="text"  name="firstname" required >
+                </div>
+                <div class="flex-column" style="gap: 2px;">
+                <label class="signin">Last Name</label>
+                <input type="text" name="lastname">
+                </div> 
+                </div>
+                <div class="flex-column" style="gap: 2px;">
+                <label class="signin">Email Address</label>
+                <input type="text" name="emailaddress" required>
+               </div>
+               <div class="flex-column" style="gap: 2px;">
+                <label class="signin">Username</label>
+                <input type="text"  name="username" required>
+                </div>
+                <div class="flex-column" style="gap: 2px;">
+                <label class="signin">Password</label>
+                <input type="text" name="password" required>
+                </div>
+                <div class="flex">
+                <input type="checkbox" id="tc" name="tc" value="tc" required>
+                <label for="tc" class="fs-1 tc">  Creating an account means you're with our <a href="#">terms of services. Privacy Policy</a></label><br>
+                </div>
+                <div >
+                <a href="./index.html">
+                <input type="submit" value="Create Account" name="submit">
+                </a>
+                </div>
+            </form>
+            <script src="./js/script.js"></script>
+</div>
+</div>
+</body>
+</html>
+
